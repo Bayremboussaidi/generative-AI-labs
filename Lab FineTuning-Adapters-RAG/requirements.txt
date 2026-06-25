@@ -1,0 +1,10 @@
+openai
+python-dotenv
+datasets
+transformers
+faiss-cpu
+langchain
+langchain-community
+langchain-openai
+chromadb
+tiktoken
