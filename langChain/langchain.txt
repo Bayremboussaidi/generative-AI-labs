@@ -1,0 +1,10 @@
+
+
+LangChain is a framework that helps you build applications powered by large language models (LLMs) more easily. Instead of calling an LLM directly, LangChain lets you connect multiple steps together like prompts, tools, memory, and external data sources.
+
+In simple terms, it helps you turn a basic chatbot into a more advanced “AI system” that can:
+
+remember previous messages (memory)
+use external tools or APIs
+search documents or databases
+chain multiple prompts together (workflow)
