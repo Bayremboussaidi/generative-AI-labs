@@ -2,40 +2,21 @@ README.txt - AI Agent App
 =========================
 
 Overview
---------
-This app is a simple Python program that connects to a large language model (LLM) via the Groq API. 
-It allows you to send a message to the AI and get a full response, just like chatting with a virtual assistant.
+This is a small Python project that connects to the Groq API to send a prompt to a language model and get a response in the terminal.
+You type a message in the script, it is sent to the API, and the model returns a generated answer.
+The project is mainly used to experiment with basic LLM API calls and understand how prompt/response flow works.
 
-How It Works
-------------
-1. You type a message in the code, for example:
-   "Hello Agent! What can you do?"
-2. The app sends your message to the Groq LLM.
-3. The LLM processes your message and generates a complete response, listing its abilities or answering your question.
-4. The response is printed in your terminal.
 
-Features
---------
-- Answer questions about various topics.
-- Generate text like stories, articles, or scripts.
-- Translate between different languages.
-- Summarize long text into concise versions.
-- Chat and converse interactively.
-- Provide definitions and explanations.
-- Suggest creative ideas.
-- Provide information on topics.
-- Assist with writing.
-- Play text-based games and trivia.
+Setup
 
-How to Use
-----------
-1. Make sure you have Python installed.
-2. Install required packages (`groq` and `python-dotenv`).
-3. Add your Groq API key to a `.env` file:
-   GROQ_API_KEY=your_key_here
-4. Run the script:
-   python hello_agent.py
-5. Read the AI's response printed in the terminal.
+Install Python and required packages: pip install groq python-dotenv
+Create a .env file and add your API key: GROQ_API_KEY=your_key_here
+Run the script: python hello_agent.py
+
+
+
+
+
 
 Notes
 -----
